@@ -1,0 +1,31 @@
+https://github.com/minalmogla92/python_skill_development.git
+
+…or create a new repository on the command line
+echo "# python_skill_development" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/minalmogla92/python_skill_development.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/minalmogla92/python_skill_development.git
+git branch -M main
+git push -u origin main
+
+
+---------------
+
+Steps for new brach 
+1. git checkout -b branch name
+2.git push --set-upstream origin minal_testing1
+
+----------------------------------------------------
+
+ 1. git add Python\ Git\ steps.txt
+2. $ git status - gives status if new file is added or modified 
+3. git commit -m "message" file name
+4. git push
+
