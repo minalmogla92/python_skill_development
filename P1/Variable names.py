@@ -1,0 +1,75 @@
+x=6
+y= "MM"
+print(x)
+print(y)
+
+x=99
+print(x)
+x=88
+print(x)
+
+#If you want to specify the data type of a variable, this can be done with casting.
+
+x=str("minal 4")
+y=int(6)
+z=float(8)     
+
+print (x)
+print(y)
+print(z) 
+
+#Variables do not need to be declared with any particular type, and can even change type after they have been set.
+x=99
+x="Crash"
+print (x)
+
+#You can get the data type of a variable with the type() function.
+x=90
+y="poppy"
+print(type(x))
+print(type(y))
+
+
+
+
+x=4
+y=8
+print("Sum is equal to= " +str(x+y)) #str is a function . x+y is a single argument
+
+
+#Python allows you to assign values to multiple variables in one line:
+x,y,z= "Mango", "Apple","Orange"
+print(x)
+print(y)
+print(z)
+
+
+
+first_name="Minal "
+last_name="Mogla"
+cash =20
+bank=19
+money=22
+print(f"My name is {first_name+last_name} : I have {cash+bank} ruppees")
+
+# In the print() function, you output multiple variables, separated by a comma:
+
+x= "python"
+y= "is"
+z="good"
+print(x,y,z) 
+
+#In the print() function, when you try to combine a string and a number with the + operator, Python will give you an error:
+
+x=5
+y=" Mack"
+print(str(x)+y)
+
+
+
+
+
+
+
+
+
