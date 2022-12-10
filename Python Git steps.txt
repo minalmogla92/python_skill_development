@@ -21,3 +21,11 @@ git push -u origin main
 Steps for new brach 
 1. git checkout -b branch name
 2.git push --set-upstream origin minal_testing1
+
+----------------------------------------------------
+
+ 1. git add Python\ Git\ steps.txt
+2. $ git status - gives status if new file is added or modified 
+3. git commit -m "message" file name
+4. git push
+
